@@ -36,7 +36,7 @@
       </div>
     </td>
     <td width="40%" align="center" valign="middle">
-      <img src="https://media.giphy.com/media/13HgwGsXF0aiGY/giphy.gif" width="100%" alt="IT Crowd Server Room GIF" style="border-radius: 8px;"/>
+      <img src="https://media.giphy.com/media/L1R1tvI9svkIWwpVYr/giphy.gif" width="100%" alt="Network Infrastructure & Datacenter" style="border-radius: 8px;"/>
     </td>
   </tr>
 </table>
