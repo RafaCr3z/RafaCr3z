@@ -105,7 +105,7 @@
 - 🧪 **Chaos Engineering Audits:** 24 fault-injection scenarios tested (tunnel drops, BGP flaps, API timeouts) achieving 100% automated recovery.
 - 📊 **Telemetry & Audit Trail:** Real-time MTTR calculations in Metabase with immutable incident logs stored in MongoDB.
 
-👉 [**Explore the Repository & Architecture Diagram →**](https://github.com/RafaCr3z/netdevops-closedloop-remediation)
+👉 [**Explore the Repository & Architecture Diagram →**](https://github.com/RafaCr3z/netdevops-closed-loop-platform)
 
 <br/>
 
@@ -133,7 +133,7 @@
 ### 📫 Connect With Me
 
 <p align="center">
-  <a href="https://linkedin.com/in/SEU_LINKEDIN"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
+  <a href="https://linkedin.com/in/rafael-cruz-7159092b2"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
   <a href="mailto:rafael.cruz@ipcbcampus.pt"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/></a>
   <a href="https://github.com/RafaCr3z"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/></a>
 </p>
