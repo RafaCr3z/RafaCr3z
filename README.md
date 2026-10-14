@@ -7,7 +7,7 @@
 ### 🛡️ Security Automation, NetDevOps & SRE Engineer
 
 🇵🇹 **Portugal** • 🎓 **BSc in Computer Science and Engineering (IPCB · Final Grade: 15 / 20)**  
-💼 **Immediate Availability · Eligible for Professional Internship (IEFP Level 6 / ATIVAR.pt)**
+💼 **Immediate Availability · Eligible for Professional Internship (IEFP Level 6 / +TALENTO)**
 
 <p align="center">
   <a href="https://rafacr3z.github.io/portfolio/"><img src="https://img.shields.io/badge/Live_Portfolio-rafacr3z.github.io%2Fportfolio-10b981?style=for-the-badge&logo=google-chrome&logoColor=white" alt="Live Portfolio" /></a>
@@ -212,7 +212,7 @@ Backed by a solid Computer Science foundation in **Object-Oriented Software Arch
 
 If your organization is seeking an engineer with a strong analytical foundation in **Security Automation**, **NetDevOps**, **SecDevOps**, or **Site Reliability Engineering (SRE)**:
 
-- 💼 **Status:** Immediate Availability · Eligible for Professional Internship (**IEFP Nível 6 / ATIVAR.pt**)
+- 💼 **Status:** Immediate Availability · Eligible for Professional Internship (**IEFP Nível 6 / +TALENTO**)
 - 📧 **Direct Email:** [rafael.lourenco.cruz20@gmail.com](mailto:rafael.lourenco.cruz20@gmail.com)
 - 🌐 **Online Portfolio:** [rafacr3z.github.io/portfolio](https://rafacr3z.github.io/portfolio/)
 - 🔗 **LinkedIn Profile:** [linkedin.com/in/rafael-cruz-7159092b2](https://www.linkedin.com/in/rafael-cruz-7159092b2/)
