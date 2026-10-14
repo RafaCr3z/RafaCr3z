@@ -25,6 +25,8 @@ Software Engineer focused on **Network Automation (NetDevOps)**, **Multi-Cloud E
 
 Hands-on experience architecting event-driven closed-loop self-healing systems, declarative infrastructure provisioning (IaC), and hardened CI/CD pipelines with federated authentication (Azure OIDC). Driven by reducing **MTTD/MTTR**, eliminating **configuration drift** via Single Source of Truth (**NetBox**), and enforcing operational resilience and **ISO 27001** auditability across mission-critical infrastructures.
 
+Backed by a solid Computer Science foundation in **Object-Oriented Software Architecture (GoF Patterns, Java 17/21, Node.js)** and **Advanced Database Engineering (Neo4j Graph DB Certified, MongoDB, Firestore, MySQL)**, enabling seamless collaboration across both platform operations and core backend application development.
+
 ---
 
 ## 🔒 Official Technical Certifications
@@ -93,16 +95,20 @@ Hands-on experience architecting event-driven closed-loop self-healing systems, 
   <img src="https://img.shields.io/badge/MPLS_Underlay-333333?style=for-the-badge&logoColor=white" alt="MPLS" />
 </p>
 
-#### 💻 Languages & Data Ecosystem
+#### 💻 Software Engineering & Data Ecosystem
 <p>
   <img src="https://img.shields.io/badge/Python_3-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
+  <img src="https://img.shields.io/badge/Java_17%2F21-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" alt="Java" />
   <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white" alt="Node.js" />
+  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript" />
+  <img src="https://img.shields.io/badge/PHP_8-777BB4?style=for-the-badge&logo=php&logoColor=white" alt="PHP" />
+  <img src="https://img.shields.io/badge/Design_Patterns_GoF-4CAF50?style=for-the-badge" alt="GoF Patterns" />
+  <img src="https://img.shields.io/badge/Neo4j_Graph-008CC1?style=for-the-badge&logo=neo4j&logoColor=white" alt="Neo4j" />
+  <img src="https://img.shields.io/badge/GCP_Firestore-FFCA28?style=for-the-badge&logo=firebase&logoColor=black" alt="Firestore" />
+  <img src="https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white" alt="MongoDB" />
+  <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" alt="MySQL" />
   <img src="https://img.shields.io/badge/Bash_Shell-4EAA25?style=for-the-badge&logo=gnu-bash&logoColor=white" alt="Bash" />
   <img src="https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white" alt="C++" />
-  <img src="https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white" alt="MongoDB" />
-  <img src="https://img.shields.io/badge/GCP_Firestore-FFCA28?style=for-the-badge&logo=firebase&logoColor=black" alt="Firestore" />
-  <img src="https://img.shields.io/badge/Neo4j_Graph-008CC1?style=for-the-badge&logo=neo4j&logoColor=white" alt="Neo4j" />
-  <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" alt="MySQL" />
   <img src="https://img.shields.io/badge/Metabase_BI-509EE3?style=for-the-badge&logo=metabase&logoColor=white" alt="Metabase" />
 </p>
 
@@ -113,7 +119,9 @@ Hands-on experience architecting event-driven closed-loop self-healing systems, 
 
 ---
 
-## 🚀 Featured Engineering Projects
+## 🚀 Featured Engineering Projects (Dual-Track)
+
+### ☁️ Track A: Cloud Infrastructure, NetDevOps & SRE
 
 ### 1. 🌐 NetDevOps Closed-Loop Automation & Network Resilience (PoC)
 **Capstone Engineering Project · Grade: 19 / 20 · Industry Partnership: ARTE, I.P.**
@@ -160,6 +168,32 @@ Hands-on experience architecting event-driven closed-loop self-healing systems, 
 - ⚖️ **Sovereignty & Governance:** Comprehensive technical compliance analysis regarding **GDPR vs. US CLOUD Act** cross-border reach.
 
 👉 [**Explore the GitHub Repository →**](https://github.com/RafaCr3z/cityguards-platform-core) &nbsp;|&nbsp; 👉 [**View Live Interactive Blueprint in Portfolio →**](https://rafacr3z.github.io/portfolio/#projects)
+
+---
+
+### 💻 Track B: Software Engineering, Backend & Systems
+
+### 3. 🏛️ [PDS Software Design Patterns Monorepo](https://github.com/RafaCr3z/pds-software-design-patterns)
+**Architectural Reengineering & Gang of Four (GoF) Patterns in Java 17/21 LTS (EST/IPCB)**
+
+*Monorepo showcasing clean architecture, object-oriented design patterns, and state machine refactoring over complex applications:*
+- **EST Global Airways (TP1):** Flight booking and fleet management system built with **Facade**, polymorphic **Factory Method**, and multi-window event-driven Java Swing UI.
+- **Banco do FaroEST (TP2):** Arcade game engine reengineering with **State Pattern** (client & door state machines), **Prototype** (deep cloning of entities and levels), **Abstract Factory** (modular expansion packs), **Strategy**, **Template Method**, and thread-safe **Singleton**.
+- **Clean Code & SOLID:** Elimination of code smells, replacement of monolithic `switch/case` statements and removal of `instanceof` checks via polymorphic GraphStream rendering.
+
+👉 [**Explore the Design Patterns Monorepo →**](https://github.com/RafaCr3z/pds-software-design-patterns)
+
+<br/>
+
+### 4. 🚌 [FelixBus Travel Platform](https://github.com/RafaCr3z/felixbus-travel-platform)
+**Dual-Stack Web Platform (PHP 8 & Java JSP / Tomcat) with Transactional Virtual Wallet**
+
+*Comprehensive passenger transport booking system featuring dual reference implementations sharing a normalized relational database:*
+- **Dual-Stack Architectural Comparison:** Native PHP 8.x + Apache HTTPD versus Java JSP / Servlets on Apache Tomcat.
+- **Strict Transactional Virtual Wallet:** Atomic balance debits/credits with full transactional audit logging for ticket purchasing.
+- **4-Level Role-Based Access Control (RBAC):** Distinct workflows and dashboards for Visitor, Customer, Staff, and Administrator profiles.
+
+👉 [**Explore the FelixBus Platform →**](https://github.com/RafaCr3z/felixbus-travel-platform)
 
 ---
 
