@@ -101,12 +101,12 @@ Seeking entry-level opportunities as a **Junior Network Engineer, Junior Cloud /
   <p><i>CityGuards Architecture: Azure App Service / Static Web Apps paired with GCP Cloud Firestore and cognitive AI fallback</i></p>
 </div>
 
-#### Key Highlights & Individual Contributions:
-- **Zero-Secret CI/CD:** GitHub Actions workflow authenticated via federated **Azure OIDC (`azure/login@v2`)**, eliminating long-lived credentials in GitHub Secrets.
-- **Infrastructure as Code (IaC):** Modular **Azure Bicep** templates compiling deterministically for App Service, Storage, and RBAC roles.
-- **ACID Transactional Persistence:** Atomic incident state transitions implemented with GCP Cloud Firestore transactions (`db.runTransaction`) to eliminate concurrent status conflicts.
-- **Graceful Degradation & FinOps:** Local regex heuristic fallback during cognitive AI API pauses, containerized PDF report generation via Azure Container Instances (ACI), and cloud cost optimized to **~72 €/month** (evaluating European sovereign alternatives vs. US CLOUD Act).
-- **Container Hardening:** Multi-stage Docker containerization with non-root security context and Checkov/Trivy security scans.
+#### Key Highlights & Team Scope:
+- **Zero-Secret CI/CD (Post-Coursework Evolution):** GitHub Actions workflow authenticated via federated **Azure OIDC (`azure/login@v2`)**, eliminating long-lived credentials in GitHub Secrets.
+- **Infrastructure as Code (IaC):** Modular **Azure Bicep** templates (original academic IaC authored by teammate **Tiago Alves**; adapted for automated CI `az bicep build` validation in the published repository).
+- **ACID Transactional Persistence (Rafael Cruz):** Atomic incident state transitions and persistence layer implemented with **GCP Cloud Firestore** transactions (`db.runTransaction`) to eliminate concurrent status conflicts.
+- **Graceful Degradation & FinOps:** Local regex heuristic fallback during cognitive AI API pauses, containerized PDF report generation (`pdf-service` Dockerized by Rafael Cruz) via Azure Container Instances (ACI), and cloud cost optimized to **~72 €/month** (evaluating European sovereign alternatives vs. US CLOUD Act).
+- **Container Hardening:** Multi-stage Docker containerization with non-root security context and Trivy security scans.
 
 👉 [**GitHub Repository →**](https://github.com/RafaCr3z/cityguards-platform-core) &nbsp;|&nbsp; 👉 [**Interactive Blueprint in Portfolio →**](https://rafacr3z.github.io/portfolio/#projects)
 
@@ -124,7 +124,7 @@ Seeking entry-level opportunities as a **Junior Network Engineer, Junior Cloud /
 
 #### Key Highlights & Technical Metrics:
 - **Modular Microservices Architecture:** **11 Maven modules** (1 shared contract library `common-lib` + 10 Spring Boot microservices: Eureka, Gateway, Auth, Trip, Vehicle, Payment, Location, Notification, Admin, Frontend).
-- **Containerized Ecosystem:** **18 Docker containers** in full LGTM deployment mode (10 application services, 3 core data stores — PostgreSQL, RabbitMQ, Redis —, and 5 observability containers: Prometheus, Grafana, Tempo, Loki, Promtail); 15 containers in base metrics profile.
+- **Containerized Ecosystem:** **18 Docker containers** defined in `docker-compose.yml` (10 application services, 3 core data stores — PostgreSQL, RabbitMQ, Redis —, and 5 observability containers: Prometheus, Grafana, Tempo, Loki, Promtail; optional 15-container lightweight mode via `--scale tempo=0 --scale loki=0 --scale promtail=0`).
 - **Automated Test Suite:** **123 automated unit and sliced integration tests** (JUnit 5 + Mockito) executed via Maven Reactor with 100% pass rate in CI.
 - **Reliability & Event-Driven Decoupling:** RabbitMQ Topic Exchange with Dead Letter Queue (`notification.dlq`) and exponential backoff retry; Resilience4j Circuit Breakers with fallback handlers; Redis Cache-Aside for geocoding and Token Bucket rate limiting.
 - **Payment Sandbox:** Idempotent payment processing simulated for MBWay, Card, and Wallet transactions (synthetic validation without external payment gateway).
