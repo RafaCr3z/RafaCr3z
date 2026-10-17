@@ -8,7 +8,7 @@
 #### Networks, Systems, Cloud & Automation | Java / Spring Boot Backend
 
 🇵🇹 **Portugal** • 🎓 **BSc in Computer Science and Engineering (IPCB · Final Grade: 15 / 20)**  
-💼 **Immediate Availability · Eligible for Professional Internship (IEFP Level 6 / +TALENTO)**
+💼 **Immediate Availability (Remote, Hybrid or Relocation) · Eligible for +Talento Internships (IEFP Level 6)**
 
 <p align="center">
   <a href="https://rafacr3z.github.io/portfolio/"><img src="https://img.shields.io/badge/Live_Portfolio-rafacr3z.github.io%2Fportfolio-10b981?style=for-the-badge&logo=google-chrome&logoColor=white" alt="Live Portfolio" /></a>
@@ -65,14 +65,14 @@ Seeking entry-level opportunities as a **Junior Network Engineer, Junior Cloud /
 - **Cloud & DevOps:** Microsoft Azure, AWS, GCP, Azure Bicep, Terraform, Docker, Docker Compose, Kubernetes (declarative Kustomize manifests), GitHub Actions CI/CD with Azure OIDC, Trivy.
 - **Backend & Distributed Systems:** Java 17/21 LTS, Spring Boot 3, Spring Cloud (Eureka, Gateway, OpenFeign), RabbitMQ (Topic Exchange, DLQ), Redis 7 (Cache-Aside, Rate Limiting), Node.js / TypeScript, Python 3, PHP 8.
 - **Observability & Databases:** Prometheus, Grafana, Grafana Tempo (OTLP Tracing), Grafana Loki (Centralized Logging), PostgreSQL (Database-per-Service, Flyway), MongoDB, GCP Firestore, Neo4j Graph DB.
-- **Languages:** Portuguese (Native), English (Full Professional — C1), Spanish (Operational — B2).
+- **Languages:** Portuguese (Native), English (Full Professional — C1), Spanish (Advanced Intermediate — B2).
 
 ---
 
 ## 🚀 Featured Engineering Projects
 
 ### 1. 🌐 NetDevOps Closed-Loop Automation & Network Resilience (PoC)
-**Capstone Engineering Project · Final Grade: 19 / 20 · Team: Rafael Cruz & Rafael Victorino · Industry Guidance: Nuno Batuca (ARTE, I.P. Communications Team)**
+**Capstone Engineering Project · Final Grade: 19 / 20 · Partnership: ARTE, I.P. (ex-AMA) · Sep 2025 – Aug 2026 · Team: Rafael Cruz & Rafael Victorino · Industry Mentorship: Nuno Batuca (ARTE, I.P. Communications Team)**
 
 *Event-driven closed-loop automation prototype engineered to detect and remediate configuration drift across hybrid enterprise networks (Overlay IPsec VPN over Underlay MPLS).*
 
@@ -83,8 +83,8 @@ Seeking entry-level opportunities as a **Junior Network Engineer, Junior Cloud /
 
 #### Key Highlights & Empirical Findings:
 - **Active Remediation Speed:** FortiOS configuration drift converged in **4.0 seconds** (15:47:55 to 15:47:59 in empirical VMware ESXi lab trials with FortiGate 7.2.11).
-- **Total Closed-Loop Cycle:** Complete forensic cycle (telemetry trigger, verification against NetBox SSoT, API remediation, and verification) achieved in **40–70 seconds**.
-- **Fault Isolation (MTTD):** Differential pre-checks isolate underlay MPLS packet loss from logical IPsec configuration drift in **< 10s**.
+- **Total Closed-Loop Cycle:** Complete forensic cycle (telemetry trigger, verification against NetBox SSoT, API remediation, and verification) achieved in **40–70 seconds** (reducing manual MTTR from ~30 min to ~60s).
+- **Fault Isolation (MTTD):** Differential pre-checks isolate underlay MPLS packet loss from logical IPsec configuration drift in **< 10s** (-95% MTTD reduction).
 - **Failure Taxonomy & Synthetic Benchmark:** 24 documented failure scenarios categorized across routing, encryption, firewall policies, and physical links, supported by an offline telemetry benchmark script.
 - **Audit Logging:** Structured remediation audit records stored in MongoDB with Metabase dashboard visibility.
 
@@ -93,7 +93,7 @@ Seeking entry-level opportunities as a **Junior Network Engineer, Junior Cloud /
 ---
 
 ### 2. 🛡️ Secure Multi-Cloud Municipal Platform (CityGuards)
-**Academic Project · Final Grade: 20 / 20 · Team: Diogo Oliveira, Rafael Cruz, Tiago Alves**
+**Academic Project · Final Grade: 20 / 20 · Feb 2026 – May 2026 · Team: Diogo Oliveira, Rafael Cruz, Tiago Alves · Supervisor: Prof. Osvaldo Santos**
 
 *Multi-cloud civic reporting and municipal asset management prototype leveraging Microsoft Azure PaaS and Google Cloud Platform (GCP) with automated failover and graceful degradation.*
 
@@ -106,7 +106,7 @@ Seeking entry-level opportunities as a **Junior Network Engineer, Junior Cloud /
 - **Zero-Secret CI/CD:** GitHub Actions workflow authenticated via federated **Azure OIDC (`azure/login@v2`)**, eliminating long-lived credentials in GitHub Secrets.
 - **Infrastructure as Code (IaC):** Modular **Azure Bicep** templates compiling deterministically for App Service, Storage, and RBAC roles.
 - **ACID Transactional Persistence:** Atomic incident state transitions implemented with GCP Cloud Firestore transactions (`db.runTransaction`) to eliminate concurrent status conflicts.
-- **Graceful Degradation:** Local regex heuristic fallback during cognitive AI API pauses, plus containerized PDF report generation via Azure Container Instances (ACI).
+- **Graceful Degradation & FinOps:** Local regex heuristic fallback during cognitive AI API pauses, containerized PDF report generation via Azure Container Instances (ACI), and cloud cost optimized to **~72 €/month** (evaluating European sovereign alternatives vs. US CLOUD Act).
 - **Container Hardening:** Multi-stage Docker containerization with non-root security context and Checkov/Trivy security scans.
 
 👉 [**GitHub Repository →**](https://github.com/RafaCr3z/cityguards-platform-core) &nbsp;|&nbsp; 👉 [**Interactive Blueprint in Portfolio →**](https://rafacr3z.github.io/portfolio/#projects)
