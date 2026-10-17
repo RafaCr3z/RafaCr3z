@@ -72,7 +72,7 @@ Seeking entry-level opportunities as a **Junior Network Engineer, Junior Cloud /
 ## 🚀 Featured Engineering Projects
 
 ### 1. 🌐 NetDevOps Closed-Loop Automation & Network Resilience (PoC)
-**Capstone Engineering Project · Final Grade: 19 / 20 · Authors: Rafael Cruz & Rafael Victorino · Industry Partner: ARTE, I.P.**
+**Capstone Engineering Project · Final Grade: 19 / 20 · Team: Rafael Cruz & Rafael Victorino · Industry Guidance: Nuno Batuca (ARTE, I.P. Communications Team)**
 
 *Event-driven closed-loop automation prototype engineered to detect and remediate configuration drift across hybrid enterprise networks (Overlay IPsec VPN over Underlay MPLS).*
 
