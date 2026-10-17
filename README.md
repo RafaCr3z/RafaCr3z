@@ -72,21 +72,20 @@ Seeking entry-level opportunities as a **Junior Network Engineer, Junior Cloud /
 ## 🚀 Featured Engineering Projects
 
 ### 1. 🌐 NetDevOps Closed-Loop Automation & Network Resilience (PoC)
-**Capstone Engineering Project · Final Grade: 19 / 20 · Partnership: ARTE, I.P. (ex-AMA) · Sep 2025 – Aug 2026 · Team: Rafael Cruz & Rafael Victorino · Industry Mentorship: Nuno Batuca (ARTE, I.P. Communications Team)**
+**Capstone Engineering Project (Projeto I & II) · Final Grade: 19 / 20 · Partnership: ARTE, I.P. (Decreto-Lei n.º 96/2025, ex-AMA) · Sep 2025 – Aug 2026 · Team: Rafael Cruz & Rafael Victorino · Industry Mentorship: Eng.º Nuno Batuca (ARTE, I.P.) · Supervisors: Prof. Dr. Vasco Soares & Prof. Dr. Alexandre Fonte**
 
-*Event-driven closed-loop automation prototype engineered to detect and remediate configuration drift across hybrid enterprise networks (Overlay IPsec VPN over Underlay MPLS).*
+*Two-part capstone engineering project (*Automação e Inteligência em Redes de Comunicação de Dados: integração da metodologia Network DevOps numa arquitetura de redes híbrida*) evolving from passive granular diagnostics (Projeto I) to active closed-loop self-healing (Projeto II) across Hub-and-Spoke government WANs (Overlay IPsec IKEv2 VPN over Underlay MPLS).*
 
 <div align="center">
   <img src="figura3_netdevops_arquitetura.png" alt="NetDevOps Macro Architecture" width="85%" />
-  <p><i>Closed-Loop Architecture: PRTG Telemetry ➔ n8n Orchestrator ➔ NetBox SSoT ➔ FortiOS REST API / Netmiko SSH ➔ MongoDB Audit Store</i></p>
+  <p><i>Closed-Loop Architecture: PRTG Telemetry ➔ n8n Orchestrator ➔ NetBox SSoT ➔ FortiOS REST API / Netmiko SSH ➔ MongoDB & Metabase BI</i></p>
 </div>
 
 #### Key Highlights & Empirical Findings:
-- **Active Remediation Speed:** FortiOS configuration drift converged in **4.0 seconds** (15:47:55 to 15:47:59 in empirical VMware ESXi lab trials with FortiGate 7.2.11).
-- **Total Closed-Loop Cycle:** Complete forensic cycle (telemetry trigger, verification against NetBox SSoT, API remediation, and verification) achieved in **40–70 seconds** (reducing manual MTTR from ~30 min to ~60s).
-- **Fault Isolation (MTTD):** Differential pre-checks isolate underlay MPLS packet loss from logical IPsec configuration drift in **< 10s** (-95% MTTD reduction).
-- **Failure Taxonomy & Synthetic Benchmark:** 24 documented failure scenarios categorized across routing, encryption, firewall policies, and physical links, supported by an offline telemetry benchmark script.
-- **Audit Logging:** Structured remediation audit records stored in MongoDB with Metabase dashboard visibility.
+- **Two-Phase Remediation Engine (Projeto II):** **Phase 1 (Trial Contingency)** uses isolated Python/`Netmiko` SSH scripts (`/opt/venv_netmiko` under **Ubuntu Server 24.04 PEP 668**); **Phase 2 (Enterprise)** uses synchronous **HTTPS `PUT`/`POST` calls** against the **FortiOS v7.6.4 CMDB REST API** (API Token + Trusted Hosts `10.0.0.60`), achieving transactional efficiency $\mathcal{R}_{\text{trans}} \ge 90\%$ (< 2s CMDB injection) and adding **Firewall Policy (`policy_disabled`)** auditing.
+- **Active Remediation & Syslog Convergence:** FortiOS v7.6.4 syslogs in **VMware Workstation Pro** document active recovery and IKEv2/IPsec tunnel convergence in **4 to 7 seconds** (`15:47:55`→`15:47:59` [4s] for `rgwy_mismatch`; `15:58:23`→`15:58:30` [7s] for `phase2_mismatch`; `15:40:43`→`15:40:50` [7s] for `zero_traffic`), reducing full-cycle MTTR from 15–30 minutes (manual) to ~60s (including 12s/35s stabilization re-checks).
+- **Differential Fault Isolation (MTTD):** Isolates underlay MPLS carrier outages (`mpls_down` → automated SMTP escalation via Mailtrap) and branch power blackouts (**Pre-Check ICMP** `exitCode != 0` on `172.16.0.2` → write suppression + Telegram alert) in **< 10s** (>95% MTTD reduction in Projeto I; **< 1s** via PRTG Webhooks in Phase 2).
+- **10 Lab Chaos Scenarios (A–J) & 24 Recorded Incidents:** Validated across **10 Chaos Engineering scenarios** in VMware Workstation Pro, generating **24 forensic incident documents in MongoDB** (`13` in Phase 1 `incident_runs` [53.8% `auto_recovered`, 30.8% `escalated_to_provider`, 15.4% `power_or_hardware_failure`] + `11` in Phase 2 `incident_runs_enterprise` [72.7% `auto_recovered`, 27.3% `not_attempted`]), analyzed in **Metabase BI** alongside an offline 24-scenario synthetic benchmark script (`scripts/chaos_simulation_demo.py`).
 
 👉 [**GitHub Repository →**](https://github.com/RafaCr3z/netdevops-closed-loop-platform) &nbsp;|&nbsp; 👉 [**Interactive Blueprint in Portfolio →**](https://rafacr3z.github.io/portfolio/#projects)
 
