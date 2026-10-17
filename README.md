@@ -4,7 +4,8 @@
 
 # Rafael Cruz
 
-### 🛡️ Security Automation, NetDevOps & SRE Engineer
+### Computer Science & Engineering Graduate
+#### Networks, Systems, Cloud & Automation | Java / Spring Boot Backend
 
 🇵🇹 **Portugal** • 🎓 **BSc in Computer Science and Engineering (IPCB · Final Grade: 15 / 20)**  
 💼 **Immediate Availability · Eligible for Professional Internship (IEFP Level 6 / +TALENTO)**
@@ -19,181 +20,141 @@
 
 </div>
 
-## 👨‍💻 Executive Summary
+## 👨‍💻 Profile & Overview
 
-Software Engineer focused on **Network Automation (NetDevOps)**, **Multi-Cloud Engineering (SecDevOps)**, and **Site Reliability Engineering (SRE)**. 
+Recent Computer Science and Engineering graduate from the Polytechnic Institute of Castelo Branco (IPCB), with a solid foundation and hands-on focus on **Network Automation (NetDevOps)**, **Systems & Multi-Cloud Infrastructure**, and **Backend Software Engineering (Java / Spring Boot)**.
 
-Hands-on experience architecting event-driven closed-loop self-healing systems, declarative infrastructure provisioning (IaC), and hardened CI/CD pipelines with federated authentication (Azure OIDC). Driven by reducing **MTTD/MTTR**, eliminating **configuration drift** via Single Source of Truth (**NetBox**), and enforcing operational resilience and **ISO 27001** auditability across mission-critical infrastructures.
+Experienced in developing laboratory prototypes, academic capstones, and architectural proofs-of-concept:
+- **NetDevOps & Self-Healing Networks:** Event-driven closed-loop remediation prototypes integrating telemetry, NetBox Single Source of Truth (SSoT), and FortiOS API/SSH automation.
+- **Multi-Cloud & SecDevOps:** Declarative IaC (Azure Bicep, Terraform), federated zero-secret CI/CD pipelines (Azure OIDC), and containerized deployments.
+- **Distributed Systems & Microservices:** Event-driven architectures with Spring Boot, Spring Cloud, RabbitMQ, Redis, PostgreSQL, and full LGTM observability (Prometheus, Grafana, Tempo, Loki).
+- **Software Engineering Foundations:** Object-Oriented Design (GoF Patterns, Java 17/21), relational and graph databases (Neo4j, PostgreSQL, MongoDB, GCP Firestore).
 
-Backed by a solid Computer Science foundation in **Object-Oriented Software Architecture (GoF Patterns, Java 17/21, Node.js)** and **Advanced Database Engineering (Neo4j Graph DB Certified, MongoDB, Firestore, MySQL)**, enabling seamless collaboration across both platform operations and core backend application development.
+Seeking entry-level opportunities as a **Junior Network Engineer, Junior Cloud / DevOps / SRE Engineer, or Junior Backend Developer**.
 
 ---
 
-## 🔒 Official Technical Certifications
+## 📜 Certifications & Academic Credentials
 
 <div align="center">
 
-| Issuer | Official Certification Credential | Domain | Status |
+### Official Industry Certifications
+
+| Issuer | Certification | Domain | Status |
 |:---|:---|:---:|:---:|
 | 🛡️ **Fortinet** | **Fortinet NSE 2 Certified in Cybersecurity** | Network Security | `Active` ● |
 | 🛡️ **Fortinet** | **Fortinet NSE 1 Certified in Cybersecurity** | Network Security | `Active` ● |
-| ☁️ **Amazon Web Services** | **AWS Academy Graduate — Cloud Operations** | CloudOps & SysOps | `Active` ● |
-| ☁️ **Amazon Web Services** | **AWS Academy Graduate — Cloud Security Foundations** | Cloud Security | `Active` ● |
-| ☁️ **Amazon Web Services** | **AWS Academy Graduate — Cloud Foundations** | Cloud Architecture | `Active` ● |
 | 📊 **Neo4j** | **Neo4j Certified Professional** | Graph Databases | `Active` ● |
-| 🔬 **Neo4j** | **Neo4j Graph Data Science Certification** | Graph Analytics & AI | `Active` ● |
+| 🔬 **Neo4j** | **Neo4j Graph Data Science Certification** | Graph Analytics | `Active` ● |
+
+### Academic & Course Training Credentials
+
+| Provider | Credential | Focus Area |
+|:---|:---|:---|
+| ☁️ **Amazon Web Services** | **AWS Academy Graduate — Cloud Operations** | CloudOps, Systems & Administration |
+| ☁️ **Amazon Web Services** | **AWS Academy Graduate — Cloud Security Foundations** | Cloud Security & Compliance |
+| ☁️ **Amazon Web Services** | **AWS Academy Graduate — Cloud Foundations** | Multi-Tier Cloud Architectures |
 
 </div>
 
 ---
 
-## 🏛️ Core Engineering Pillars
+## 🛠️ Core Engineering Skills
 
-### 1. 🔄 Networking & NetDevOps (Closed-Loop)
-- **Event-Driven Auto-Remediation:** Closed-loop self-healing mitigating *configuration drift* (Gateways, Phase 2 CIDR selectors, Firewall Policies, and Security Associations).
-- **Hybrid API & CLI Engine:** Primary patch remediation via **FortiOS REST API** (Token authentication with *Trusted Hosts* restrictions) converging in **4–7 seconds**, with deterministic **Python (Netmiko)** SSH fallback.
-- **Single Source of Truth (SSoT):** Declarative golden config reconciliation against **NetBox IPAM/DCIM**.
-- **Differential Telemetry:** **PRTG** webhooks with preventive ICMP *Pre-Checks* isolating hardware/electrical loss from logical tunnel faults (**MTTD < 10s, >95% reduction**).
-
-### 2. ☁️ Cloud, IaC & SecDevOps
-- **Multi-Cloud Orchestration:** Architecture across **Microsoft Azure, Amazon Web Services (AWS), and Google Cloud Platform (GCP)**.
-- **Declarative IaC:** Provisioning with **Azure Bicep** and **Terraform**, using dynamic Connection String and secrets injection.
-- **Zero-Secret CI/CD:** GitHub Actions pipelines with federated identity authentication via **Azure OIDC (`azure/login@v2`)** — zero long-lived static secrets.
-- **Shift-Left Security:** Automated compliance scanning with **Checkov SAST**, Docker containerization, and data sovereignty compliance (**GDPR vs. US CLOUD Act**).
-
-### 3. 📊 SRE, Observability & Security
-- **Fault-Injection Testing:** Rigorous **Chaos Engineering** validation across 24 empirical failure trials.
-- **Forensic Auditability:** Syslog event streaming persisted in **MongoDB (Docker)**, high-priority incident notifications via **Telegram Bot**, and MTTR/RCA dashboards in **Metabase** compliant with **ISO 27001**.
-- **Security Analysis:** Threat telemetry with **SIEM (Wazuh, Splunk)**, packet inspection via **Wireshark**, cryptography with **OpenSSL**, reconnaissance with **Nmap**, and vulnerability scanning via **OpenVAS**.
+- **Networking & Automation:** IPsec VPN, MPLS Underlay, FortiOS REST API & CLI automation, Python (Netmiko, Requests), NetBox IPAM/DCIM, PRTG Network Monitor, Wireshark, n8n.
+- **Cloud & DevOps:** Microsoft Azure, AWS, GCP, Azure Bicep, Terraform, Docker, Docker Compose, Kubernetes (declarative Kustomize manifests), GitHub Actions CI/CD with Azure OIDC, Trivy.
+- **Backend & Distributed Systems:** Java 17/21 LTS, Spring Boot 3, Spring Cloud (Eureka, Gateway, OpenFeign), RabbitMQ (Topic Exchange, DLQ), Redis 7 (Cache-Aside, Rate Limiting), Node.js / TypeScript, Python 3, PHP 8.
+- **Observability & Databases:** Prometheus, Grafana, Grafana Tempo (OTLP Tracing), Grafana Loki (Centralized Logging), PostgreSQL (Database-per-Service, Flyway), MongoDB, GCP Firestore, Neo4j Graph DB.
+- **Languages:** Portuguese (Native), English (Full Professional — C1), Spanish (Operational — B2).
 
 ---
 
-## ⚡ Tech Stack & Ecosystem
-
-<div align="center">
-
-#### ☁️ Cloud, IaC & Security
-<p>
-  <img src="https://img.shields.io/badge/Microsoft_Azure-0078D4?style=for-the-badge&logo=microsoft-azure&logoColor=white" alt="Azure" />
-  <img src="https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white" alt="AWS" />
-  <img src="https://img.shields.io/badge/Google_Cloud-4285F4?style=for-the-badge&logo=google-cloud&logoColor=white" alt="GCP" />
-  <img src="https://img.shields.io/badge/Bicep-0078D4?style=for-the-badge&logo=azure-devops&logoColor=white" alt="Bicep" />
-  <img src="https://img.shields.io/badge/Terraform-7B42BC?style=for-the-badge&logo=terraform&logoColor=white" alt="Terraform" />
-  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker" />
-  <img src="https://img.shields.io/badge/GitHub_Actions_OIDC-2088FF?style=for-the-badge&logo=github-actions&logoColor=white" alt="GitHub Actions OIDC" />
-  <img src="https://img.shields.io/badge/Checkov_SAST-FF5722?style=for-the-badge&logoColor=white" alt="Checkov" />
-</p>
-
-#### 🔄 NetDevOps & Network Automation
-<p>
-  <img src="https://img.shields.io/badge/Fortinet_FortiOS_REST_API-EE3124?style=for-the-badge&logo=fortinet&logoColor=white" alt="Fortinet" />
-  <img src="https://img.shields.io/badge/NetBox_SSoT%2FIPAM-004D40?style=for-the-badge&logo=netbox&logoColor=white" alt="NetBox" />
-  <img src="https://img.shields.io/badge/n8n_Orchestrator-EA4B71?style=for-the-badge&logo=n8n&logoColor=white" alt="n8n" />
-  <img src="https://img.shields.io/badge/Netmiko_SSH-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Netmiko" />
-  <img src="https://img.shields.io/badge/PRTG_Network_Monitor-009900?style=for-the-badge&logoColor=white" alt="PRTG" />
-  <img src="https://img.shields.io/badge/IPsec_IKEv2-0052CC?style=for-the-badge&logoColor=white" alt="IPsec" />
-  <img src="https://img.shields.io/badge/MPLS_Underlay-333333?style=for-the-badge&logoColor=white" alt="MPLS" />
-</p>
-
-#### 💻 Software Engineering & Data Ecosystem
-<p>
-  <img src="https://img.shields.io/badge/Python_3-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
-  <img src="https://img.shields.io/badge/Java_17%2F21-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" alt="Java" />
-  <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white" alt="Node.js" />
-  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript" />
-  <img src="https://img.shields.io/badge/PHP_8-777BB4?style=for-the-badge&logo=php&logoColor=white" alt="PHP" />
-  <img src="https://img.shields.io/badge/Design_Patterns_GoF-4CAF50?style=for-the-badge" alt="GoF Patterns" />
-  <img src="https://img.shields.io/badge/Neo4j_Graph-008CC1?style=for-the-badge&logo=neo4j&logoColor=white" alt="Neo4j" />
-  <img src="https://img.shields.io/badge/GCP_Firestore-FFCA28?style=for-the-badge&logo=firebase&logoColor=black" alt="Firestore" />
-  <img src="https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white" alt="MongoDB" />
-  <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" alt="MySQL" />
-  <img src="https://img.shields.io/badge/Bash_Shell-4EAA25?style=for-the-badge&logo=gnu-bash&logoColor=white" alt="Bash" />
-  <img src="https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white" alt="C++" />
-  <img src="https://img.shields.io/badge/Metabase_BI-509EE3?style=for-the-badge&logo=metabase&logoColor=white" alt="Metabase" />
-</p>
-
-#### 🌐 Languages (Idiomas)
-**🇵🇹 Portuguese:** Native &nbsp;|&nbsp; **🇬🇧 English:** Full Professional (C1) &nbsp;|&nbsp; **🇪🇸 Spanish:** Working Operational (B2)
-
-</div>
-
----
-
-## 🚀 Featured Engineering Projects (Dual-Track)
-
-### ☁️ Track A: Cloud Infrastructure, NetDevOps & SRE
+## 🚀 Featured Engineering Projects
 
 ### 1. 🌐 NetDevOps Closed-Loop Automation & Network Resilience (PoC)
-**Capstone Engineering Project · Grade: 19 / 20 · Industry Partnership: ARTE, I.P.**
+**Capstone Engineering Project · Final Grade: 19 / 20 · Industry Partner: ARTE, I.P.**
 
-*Event-driven closed-loop automation architecture engineered to enhance resilience and availability across critical enterprise hybrid networks (Overlay IPsec VPN over Underlay MPLS).*
-
-<div align="center">
-  <img src="figura4_topologia_arte.png" alt="ARTE I.P. Hybrid Topology" width="85%" />
-  <p><i>Topology: ARTE, I.P. Hybrid Infrastructure (Hub FortiGate vs. Spoke FortiGate connected via MPLS Underlay and IPsec Overlay)</i></p>
-</div>
+*Event-driven closed-loop automation prototype engineered to detect and remediate configuration drift across hybrid enterprise networks (Overlay IPsec VPN over Underlay MPLS).*
 
 <div align="center">
   <img src="figura3_netdevops_arquitetura.png" alt="NetDevOps Macro Architecture" width="85%" />
-  <p><i>Architecture: Macro closed-loop workflow (PRTG Probing ➔ n8n Orchestrator ➔ NetBox SSoT ➔ FortiOS REST API / Netmiko SSH ➔ MongoDB/Metabase)</i></p>
+  <p><i>Closed-Loop Architecture: PRTG Telemetry ➔ n8n Orchestrator ➔ NetBox SSoT ➔ FortiOS REST API / Netmiko SSH ➔ MongoDB Audit Store</i></p>
 </div>
 
-#### 📊 Measured Operational Metrics
-- ⚡ **Convergence Speed:** Configuration drift auto-corrected on FortiOS in **4 to 7 seconds**.
-- ⏱️ **MTTR Reduction:** Total closed-loop forensic cycle of **40–70 seconds** (vs. **15–30 minutes** manual resolution).
-- 🎯 **MTTD Optimization:** Fault isolated between MPLS underlay and IPsec overlay in **< 10s (>95% reduction)**.
-- 🛡️ **Chaos Engineering:** **24/24 empirical failure trials** verified (simulating route tampering, PSK corruption, policy locks, and power outages).
-- 📜 **Regulatory Alignment:** Immutable audit logging in MongoDB and SRE dashboards in Metabase aligned with **ISO 27001**.
+#### Key Highlights & Empirical Findings:
+- **Active Remediation Speed:** FortiOS configuration drift converged in **4.0 seconds** (15:47:55 to 15:47:59 in empirical VMware ESXi lab trials with FortiGate 7.2.11).
+- **Total Closed-Loop Cycle:** Complete forensic cycle (telemetry trigger, verification against NetBox SSoT, API remediation, and verification) achieved in **40–70 seconds**.
+- **Fault Isolation (MTTD):** Differential pre-checks isolate underlay MPLS packet loss from logical IPsec configuration drift in **< 10s**.
+- **Failure Taxonomy & Synthetic Benchmark:** 24 documented failure scenarios categorized across routing, encryption, firewall policies, and physical links, supported by an offline telemetry benchmark script.
+- **Audit Logging:** Structured remediation audit records stored in MongoDB with Metabase dashboard visibility.
 
-👉 [**Explore the GitHub Repository →**](https://github.com/RafaCr3z/netdevops-closed-loop-platform) &nbsp;|&nbsp; 👉 [**View Live Interactive Blueprint in Portfolio →**](https://rafacr3z.github.io/portfolio/#projects)
+👉 [**GitHub Repository →**](https://github.com/RafaCr3z/netdevops-closed-loop-platform) &nbsp;|&nbsp; 👉 [**Interactive Blueprint in Portfolio →**](https://rafacr3z.github.io/portfolio/#projects)
 
 ---
 
-### 2. 🛡️ Secure & Resilient Multi-Cloud Platform (CityGuards)
-**Cloud Engineering Project · Grade: 20 / 20**
+### 2. 🛡️ Secure Multi-Cloud Municipal Platform (CityGuards)
+**Academic Project · Final Grade: 20 / 20 · Team: Diogo Oliveira, Rafael Cruz, Tiago Alves**
 
-*Distributed civic issue reporting and municipal asset management platform combining Microsoft Azure PaaS and Google Cloud Platform (GCP) with dual graceful degradation.*
+*Multi-cloud civic reporting and municipal asset management prototype leveraging Microsoft Azure PaaS and Google Cloud Platform (GCP) with automated failover and graceful degradation.*
 
 <div align="center">
-  <img src="figura11_cityguards_multicloud_real.png" alt="CityGuards Multi-Cloud Dashboard" width="85%" />
-  <p><i>Operational Dashboard: CityGuards running on active hybrid multi-cloud architecture (Azure App Service + GCP Firestore)</i></p>
+  <img src="figura11_cityguards_multicloud_real.png" alt="CityGuards Operational Dashboard" width="85%" />
+  <p><i>CityGuards Architecture: Azure App Service / Static Web Apps paired with GCP Cloud Firestore and cognitive AI fallback</i></p>
 </div>
 
-#### 📊 Measured Operational Metrics
-- 🔐 **Zero-Secret Deployments:** CI/CD via GitHub Actions with federated **Azure OIDC (`azure/login@v2`)** and Checkov SAST scanning.
-- ⚡ **ACID Data Integrity:** Decoupled migration to GCP Cloud Firestore with `db.runTransaction` guaranteeing atomic mutations without race conditions.
-- 🔄 **Dual Graceful Degradation:**
-  - *AI Vision Fallback:* Automated switch to local NLP regex heuristics (`TextHeuristicFallback`) during cognitive API quota pauses.
-  - *FinOps PDF Generation:* Dynamic Azure Container Instances (ACI) scaling with instantaneous in-process Node.js fallback.
-- ⚖️ **Sovereignty & Governance:** Comprehensive technical compliance analysis regarding **GDPR vs. US CLOUD Act** cross-border reach.
+#### Key Highlights & Individual Contributions:
+- **Zero-Secret CI/CD:** GitHub Actions workflow authenticated via federated **Azure OIDC (`azure/login@v2`)**, eliminating long-lived credentials in GitHub Secrets.
+- **Infrastructure as Code (IaC):** Modular **Azure Bicep** templates compiling deterministically for App Service, Storage, and RBAC roles.
+- **ACID Transactional Persistence:** Atomic incident state transitions implemented with GCP Cloud Firestore transactions (`db.runTransaction`) to eliminate concurrent status conflicts.
+- **Graceful Degradation:** Local regex heuristic fallback during cognitive AI API pauses, plus containerized PDF report generation via Azure Container Instances (ACI).
+- **Container Hardening:** Multi-stage Docker containerization with non-root security context and Checkov/Trivy security scans.
 
-👉 [**Explore the GitHub Repository →**](https://github.com/RafaCr3z/cityguards-platform-core) &nbsp;|&nbsp; 👉 [**View Live Interactive Blueprint in Portfolio →**](https://rafacr3z.github.io/portfolio/#projects)
+👉 [**GitHub Repository →**](https://github.com/RafaCr3z/cityguards-platform-core) &nbsp;|&nbsp; 👉 [**Interactive Blueprint in Portfolio →**](https://rafacr3z.github.io/portfolio/#projects)
 
 ---
 
-### 💻 Track B: Software Engineering, Backend & Systems
+### 3. 🚗 CarPooling PT — Distributed Microservices Platform
+**Personal Engineering Project · Author: Rafael Cruz**
 
-### 3. 🏛️ [PDS Software Design Patterns Monorepo](https://github.com/RafaCr3z/pds-software-design-patterns)
-**Architectural Reengineering & Gang of Four (GoF) Patterns in Java 17/21 LTS (EST/IPCB)**
+*Distributed car-pooling and sustainable mobility prototype built with Spring Boot 3, Spring Cloud, and cloud-native observability patterns.*
 
-*Monorepo showcasing clean architecture, object-oriented design patterns, and state machine refactoring over complex applications:*
-- **EST Global Airways (TP1):** Flight booking and fleet management system built with **Facade**, polymorphic **Factory Method**, and multi-window event-driven Java Swing UI.
-- **Banco do FaroEST (TP2):** Arcade game engine reengineering with **State Pattern** (client & door state machines), **Prototype** (deep cloning of entities and levels), **Abstract Factory** (modular expansion packs), **Strategy**, **Template Method**, and thread-safe **Singleton**.
-- **Clean Code & SOLID:** Elimination of code smells, replacement of monolithic `switch/case` statements and removal of `instanceof` checks via polymorphic GraphStream rendering.
+<div align="center">
+  <img src="figura_carpooling_grafana.png" alt="CarPooling Observability Dashboard" width="85%" />
+  <p><i>Observability Cockpit: Real-time JVM, request rate, and latency metrics visualized in Grafana with Prometheus scrape targets</i></p>
+</div>
 
-👉 [**Explore the Design Patterns Monorepo →**](https://github.com/RafaCr3z/pds-software-design-patterns)
+#### Key Highlights & Technical Metrics:
+- **Modular Microservices Architecture:** **11 Maven modules** (1 shared contract library `common-lib` + 10 Spring Boot microservices: Eureka, Gateway, Auth, Trip, Vehicle, Payment, Location, Notification, Admin, Frontend).
+- **Containerized Ecosystem:** **18 Docker containers** in full LGTM deployment mode (10 application services, 3 core data stores — PostgreSQL, RabbitMQ, Redis —, and 5 observability containers: Prometheus, Grafana, Tempo, Loki, Promtail); 15 containers in base metrics profile.
+- **Automated Test Suite:** **123 automated unit and sliced integration tests** (JUnit 5 + Mockito) executed via Maven Reactor with 100% pass rate in CI.
+- **Reliability & Event-Driven Decoupling:** RabbitMQ Topic Exchange with Dead Letter Queue (`notification.dlq`) and exponential backoff retry; Resilience4j Circuit Breakers with fallback handlers; Redis Cache-Aside for geocoding and Token Bucket rate limiting.
+- **Payment Sandbox:** Idempotent payment processing simulated for MBWay, Card, and Wallet transactions (synthetic validation without external payment gateway).
+- **Cloud-Native & DevSecOps:** Declarative Kubernetes manifests validated via `kubectl kustomize k8s/`; filesystem vulnerability scanning with Trivy pinned action and documented `.trivyignore` exemptions.
+
+👉 [**GitHub Repository →**](https://github.com/RafaCr3z/car-pooling-platform) &nbsp;|&nbsp; 👉 [**Interactive Blueprint in Portfolio →**](https://rafacr3z.github.io/portfolio/#projects)
+
+---
+
+## 📚 Other Academic & Foundation Projects
+
+<details>
+<summary><b>Click to expand secondary software engineering repositories</b></summary>
 
 <br/>
 
-### 4. 🚌 [FelixBus Travel Platform](https://github.com/RafaCr3z/felixbus-travel-platform)
-**Dual-Stack Web Platform (PHP 8 & Java JSP / Tomcat) with Transactional Virtual Wallet**
+### 🏛️ [PDS Software Design Patterns Monorepo](https://github.com/RafaCr3z/pds-software-design-patterns)
+*Academic coursework in Java 17/21 LTS demonstrating Gang of Four (GoF) structural, creational, and behavioral patterns:*
+- **EST Global Airways:** Flight management system using Facade and Factory Method patterns with a Swing interface.
+- **Banco do FaroEST:** Arcade game engine refactored with State Pattern (state machines), Prototype (deep entity cloning), Abstract Factory, Strategy, and thread-safe Singleton.
+- **Refactoring:** Elimination of anti-patterns, reduction of cyclomatic complexity, and polymorphic rendering.
 
-*Comprehensive passenger transport booking system featuring dual reference implementations sharing a normalized relational database:*
-- **Dual-Stack Architectural Comparison:** Native PHP 8.x + Apache HTTPD versus Java JSP / Servlets on Apache Tomcat.
-- **Strict Transactional Virtual Wallet:** Atomic balance debits/credits with full transactional audit logging for ticket purchasing.
-- **4-Level Role-Based Access Control (RBAC):** Distinct workflows and dashboards for Visitor, Customer, Staff, and Administrator profiles.
+### 🚌 [FelixBus Travel Platform](https://github.com/RafaCr3z/felixbus-travel-platform)
+*Passenger transport management system developed in two distinct backend stacks over a shared relational database:*
+- **Dual Implementation:** Comparative study between PHP 8.x + Apache HTTPD and Java JSP / Servlets on Apache Tomcat.
+- **Virtual Wallet:** Transactional ledger for passenger balance and ticket booking.
+- **Role-Based Access Control:** Role hierarchy covering Visitor, Customer, Staff, and Admin workflows.
 
-👉 [**Explore the FelixBus Platform →**](https://github.com/RafaCr3z/felixbus-travel-platform)
+</details>
 
 ---
 
@@ -208,15 +169,13 @@ Backed by a solid Computer Science foundation in **Object-Oriented Software Arch
 
 ---
 
-## 📬 Contact & Open Opportunities
-
-If your organization is seeking an engineer with a strong analytical foundation in **Security Automation**, **NetDevOps**, **SecDevOps**, or **Site Reliability Engineering (SRE)**:
+## 📬 Contact & Availability
 
 - 💼 **Status:** Immediate Availability · Eligible for Professional Internship (**IEFP Nível 6 / +TALENTO**)
 - 📧 **Direct Email:** [rafael.lourenco.cruz20@gmail.com](mailto:rafael.lourenco.cruz20@gmail.com)
 - 🌐 **Online Portfolio:** [rafacr3z.github.io/portfolio](https://rafacr3z.github.io/portfolio/)
-- 🔗 **LinkedIn Profile:** [linkedin.com/in/rafael-cruz-7159092b2](https://www.linkedin.com/in/rafael-cruz-7159092b2/)
+- 🔗 **LinkedIn:** [linkedin.com/in/rafael-cruz-7159092b2](https://www.linkedin.com/in/rafael-cruz-7159092b2/)
 
 <div align="center">
-  <sub>© 2026 Rafael Cruz · Engineered with deterministic resilience</sub>
+  <sub>© 2026 Rafael Cruz · Computer Science and Engineering</sub>
 </div>
