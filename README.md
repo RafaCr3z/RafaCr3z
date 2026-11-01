@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="avatar_rafael.jpg" width="130" height="130" style="border-radius: 50%; border: 3px solid #10b981; box-shadow: 0 0 25px rgba(16, 185, 129, 0.35);" alt="Rafael Cruz" />
+<img src="avatar_rafael_2026.webp" width="130" height="130" alt="Rafael Cruz" />
 
 # Rafael Cruz
 
@@ -26,7 +26,7 @@ Recent Computer Science and Engineering graduate from the Polytechnic Institute 
 
 Experienced in developing laboratory prototypes, academic capstones, and architectural proofs-of-concept:
 - **NetDevOps & Self-Healing Networks:** Event-driven closed-loop remediation prototypes integrating telemetry, NetBox Single Source of Truth (SSoT), and FortiOS API/SSH automation.
-- **Multi-Cloud & SecDevOps:** Declarative IaC (Azure Bicep, Terraform), federated zero-secret CI/CD pipelines (Azure OIDC), and containerized deployments.
+- **Multi-Cloud & SecDevOps:** Declarative IaC (Azure Bicep), GitHub Actions pipelines prepared for Azure OIDC federation (no stored secrets), and containerized deployments.
 - **Distributed Systems & Microservices:** Event-driven architectures with Spring Boot, Spring Cloud, RabbitMQ, Redis, PostgreSQL, and full LGTM observability (Prometheus, Grafana, Tempo, Loki).
 - **Software Engineering Foundations:** Object-Oriented Design (GoF Patterns, Java 17/21), relational and graph databases (Neo4j, PostgreSQL, MongoDB, GCP Firestore).
 
@@ -42,6 +42,7 @@ Seeking entry-level opportunities as a **Junior Network Engineer, Junior Cloud /
 
 | Issuer | Certification | Domain | Status |
 |:---|:---|:---:|:---:|
+| 🛡️ **Fortinet** | **Fortinet NSE 3 Certified Associate in Cybersecurity** | Network Security | `Active` ● |
 | 🛡️ **Fortinet** | **Fortinet NSE 2 Certified in Cybersecurity** | Network Security | `Active` ● |
 | 🛡️ **Fortinet** | **Fortinet NSE 1 Certified in Cybersecurity** | Network Security | `Active` ● |
 | 📊 **Neo4j** | **Neo4j Certified Professional** | Graph Databases | `Active` ● |
@@ -62,7 +63,7 @@ Seeking entry-level opportunities as a **Junior Network Engineer, Junior Cloud /
 ## 🛠️ Core Engineering Skills
 
 - **Networking & Automation:** IPsec VPN, MPLS Underlay, FortiOS REST API & CLI automation, Python (Netmiko, Requests), NetBox IPAM/DCIM, PRTG Network Monitor, Wireshark, n8n.
-- **Cloud & DevOps:** Microsoft Azure, AWS, GCP, Azure Bicep, Terraform, Docker, Docker Compose, Kubernetes (declarative Kustomize manifests), GitHub Actions CI/CD with Azure OIDC, Trivy.
+- **Cloud & DevOps:** Microsoft Azure, AWS, GCP, Azure Bicep, Docker, Docker Compose, Kubernetes (declarative Kustomize manifests), GitHub Actions CI/CD (Azure OIDC-ready), Trivy.
 - **Backend & Distributed Systems:** Java 17/21 LTS, Spring Boot 3, Spring Cloud (Eureka, Gateway, OpenFeign), RabbitMQ (Topic Exchange, DLQ), Redis 7 (Cache-Aside, Rate Limiting), Node.js / TypeScript, Python 3, PHP 8.
 - **Observability & Databases:** Prometheus, Grafana, Grafana Tempo (OTLP Tracing), Grafana Loki (Centralized Logging), PostgreSQL (Database-per-Service, Flyway), MongoDB, GCP Firestore, Neo4j Graph DB.
 - **Languages:** Portuguese (Native), English (Full Professional — C1), Spanish (Advanced Intermediate — B2).
@@ -87,7 +88,7 @@ Seeking entry-level opportunities as a **Junior Network Engineer, Junior Cloud /
 - **Differential Fault Isolation (MTTD):** Isolates underlay MPLS carrier outages (`mpls_down` → automated SMTP escalation via Mailtrap) and branch power blackouts (**Pre-Check ICMP** `exitCode != 0` on `172.16.0.2` → write suppression + Telegram alert) in **< 10s** (>95% MTTD reduction in Projeto I; **< 1s** via PRTG Webhooks in Phase 2).
 - **10 Lab Chaos Scenarios (A–J) & 24 Recorded Incidents:** Validated across **10 Chaos Engineering scenarios** in VMware Workstation Pro, generating **24 forensic incident documents in MongoDB** (`13` in Phase 1 `incident_runs` [53.8% `auto_recovered`, 30.8% `escalated_to_provider`, 15.4% `power_or_hardware_failure`] + `11` in Phase 2 `incident_runs_enterprise` [72.7% `auto_recovered`, 27.3% `not_attempted`]), analyzed in **Metabase BI** alongside an offline 24-scenario synthetic benchmark script (`scripts/chaos_simulation_demo.py`).
 
-👉 [**GitHub Repository →**](https://github.com/RafaCr3z/netdevops-closed-loop-platform) &nbsp;|&nbsp; 👉 [**Interactive Blueprint in Portfolio →**](https://rafacr3z.github.io/portfolio/#projects)
+👉 [**GitHub Repository →**](https://github.com/RafaCr3z/netdevops-closed-loop-platform) &nbsp;|&nbsp; 👉 [**Interactive Blueprint in Portfolio →**](https://rafacr3z.github.io/portfolio/#projetos)
 
 ---
 
@@ -102,13 +103,13 @@ Seeking entry-level opportunities as a **Junior Network Engineer, Junior Cloud /
 </div>
 
 #### Key Highlights & Team Scope:
-- **Zero-Secret CI/CD (Post-Coursework Evolution):** GitHub Actions workflow authenticated via federated **Azure OIDC (`azure/login@v2`)**, eliminating long-lived credentials in GitHub Secrets.
+- **Zero-Secret CI/CD (Post-Coursework Evolution):** GitHub Actions workflow built for federated **Azure OIDC (`azure/login@v2`)**, with no long-lived credentials in GitHub Secrets. In the public repo the Azure identifiers are not configured, so the deploy stage runs as a Bicep dry run.
 - **Infrastructure as Code (IaC):** Modular **Azure Bicep** templates (original academic IaC authored by teammate **Tiago Alves**; adapted for automated CI `az bicep build` validation in the published repository).
 - **ACID Transactional Persistence (Rafael Cruz):** Atomic incident state transitions and persistence layer implemented with **GCP Cloud Firestore** transactions (`db.runTransaction`) to eliminate concurrent status conflicts.
 - **Graceful Degradation & FinOps:** Local regex heuristic fallback during cognitive AI API pauses, containerized PDF report generation (`pdf-service` Dockerized by Rafael Cruz) via Azure Container Instances (ACI), and cloud cost optimized to **~72 €/month** (evaluating European sovereign alternatives vs. US CLOUD Act).
 - **Container Hardening:** Multi-stage Docker containerization with non-root security context and Trivy security scans.
 
-👉 [**GitHub Repository →**](https://github.com/RafaCr3z/cityguards-platform-core) &nbsp;|&nbsp; 👉 [**Interactive Blueprint in Portfolio →**](https://rafacr3z.github.io/portfolio/#projects)
+👉 [**GitHub Repository →**](https://github.com/RafaCr3z/cityguards-platform-core) &nbsp;|&nbsp; 👉 [**Interactive Blueprint in Portfolio →**](https://rafacr3z.github.io/portfolio/#projetos)
 
 ---
 
@@ -130,7 +131,7 @@ Seeking entry-level opportunities as a **Junior Network Engineer, Junior Cloud /
 - **Payment Sandbox:** Idempotent payment processing simulated for MBWay, Card, and Wallet transactions (synthetic validation without external payment gateway).
 - **Cloud-Native & DevSecOps:** Declarative Kubernetes manifests validated via `kubectl kustomize k8s/`; filesystem vulnerability scanning with Trivy pinned action and documented `.trivyignore` exemptions.
 
-👉 [**GitHub Repository →**](https://github.com/RafaCr3z/car-pooling-platform) &nbsp;|&nbsp; 👉 [**Interactive Blueprint in Portfolio →**](https://rafacr3z.github.io/portfolio/#projects)
+👉 [**GitHub Repository →**](https://github.com/RafaCr3z/car-pooling-platform) &nbsp;|&nbsp; 👉 [**Interactive Blueprint in Portfolio →**](https://rafacr3z.github.io/portfolio/#projetos)
 
 ---
 
@@ -154,17 +155,6 @@ Seeking entry-level opportunities as a **Junior Network Engineer, Junior Cloud /
 - **Role-Based Access Control:** Role hierarchy covering Visitor, Customer, Staff, and Admin workflows.
 
 </details>
-
----
-
-## 📈 GitHub Telemetry
-
-<div align="center">
-
-<img src="https://github-readme-stats.vercel.app/api?username=RafaCr3z&show_icons=true&theme=tokyonight&hide_border=true&bg_color=06090e&title_color=10b981&icon_color=06b6d4&text_color=94a3b8" height="150" alt="GitHub Stats" />
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=RafaCr3z&layout=compact&theme=tokyonight&hide_border=true&bg_color=06090e&title_color=10b981&text_color=94a3b8" height="150" alt="Top Languages" />
-
-</div>
 
 ---
 
